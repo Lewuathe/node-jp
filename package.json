@@ -1,0 +1,21 @@
+{
+  "name": "node.jp",
+  "version": "0.0.1",
+  "description" : "DAO of the statics data provided by the goverment of Japan.",
+  "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/Lewuathe/node.jp"
+  },
+  "scripts": {
+      "test" : "make test"
+  },
+  "dependencies": {
+   },
+  "devDependencies" : {
+        "vows" : "0.7.x"
+  },
+  "engines" : {
+      "node" : ">=0.8.x",
+      "npm" : "1.2.x"
+  }
+}
