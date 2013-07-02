@@ -1,4 +1,11 @@
 {
 	"host" : "statdb.nstac.go.jp",
-	"version" : "1.0b"
+	"version" : "1.0b",
+	"api" : [
+		"getStatsList",
+		"getMetaInfo",
+		"getStatsData",
+		"postDataSet",
+		"refDataSet"
+	]
 }

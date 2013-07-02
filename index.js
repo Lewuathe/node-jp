@@ -6,11 +6,7 @@
  *
  */
 
-var statsListClient   = require('./lib/statsListClient.js');
-var metaInfoClient    = require('./lib/metaInfoClient.js');
-var statsDataClient   = require('./lib/statsDataClient.js');
-var postDataSetClient = require('./lib/postDataSetClient.js');
-var refDataSetClient  = require('./lib/refDataSetClient.js');
+var apiClient         = require('./lib/apiClient.js');
 
 var Client = module.exports = function(config) {
 	var self    = this;
