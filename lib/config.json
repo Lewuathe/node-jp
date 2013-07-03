@@ -7,5 +7,40 @@
 		"getStatsData",
 		"postDataSet",
 		"refDataSet"
-	]
+	],
+    "options" : {
+        "getStatsList" : {
+            "host" : "statdb.nstac.go.jp",
+            "port" : 80,
+            "path" : "/api/1.0b/app/getStatsList",
+            "method" : "GET"
+        },
+        "getMetaInfo" : {
+            "host" : "statdb.nstac.go.jp",
+            "port" : 80,
+            "path" : "/api/1.0b/app/getMetaInfo",
+            "method" : "GET"
+        },
+        "getStatsData" : {
+            "host" : "statdb.nstac.go.jp",
+            "port" : 80,
+            "path" : "/api/1.0b/app/getStatsData",
+            "method" : "GET"
+        },
+        "postDataSet" : {
+            "host" : "statdb.nstac.go.jp",
+            "port" : 80,
+            "path" : "/api/1.0b/app/postDataSet",
+            "method" : "POST",
+            "headers" : {
+                "Content-Type" : "application/x-www-form-urlencode"
+            }
+        },
+        "refDataSet" : {
+            "host" : "statdb.nstac.go.jp",
+            "port" : 80,
+            "path" : "/api/1.0b/app/refDataSet",
+            "method" : "GET"
+        }
+    }
 }
