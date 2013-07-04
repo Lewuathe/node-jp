@@ -15,6 +15,12 @@ var Client = module.exports = function(config) {
 	var params = { 
 		'appId' : '6d736004f09f38d8fc8bb827201c1ecf9b4cb84f',
 		'lang' : 'E',
+		'dataSetId' : 'kaisasak',
+		'statsDataId'  12,
+		'penSpecified' : 0,
+		'processMode' : 'E',
+		'dataSetName' : 'kaisasak_test',
+		'lvArea' : 1
 	};
 		
 	statsListClient.request(params, config.callback);
@@ -27,7 +33,7 @@ function testCallBack(data){
 }
 
 var config = {
-	type : "getStatsList",
+	type : "postDataset",
 	callback : testCallBack
 };
 

@@ -27,19 +27,19 @@
             "path" : "/api/1.0b/app/getStatsData",
             "method" : "GET"
         },
-        "postDataSet" : {
+        "postDataset" : {
             "host" : "statdb.nstac.go.jp",
             "port" : 80,
-            "path" : "/api/1.0b/app/postDataSet",
+            "path" : "/api/1.0b/app/postDataset",
             "method" : "POST",
             "headers" : {
-                "Content-Type" : "application/x-www-form-urlencode"
+                "Content-Type" : "application/x-www-form-urlencoded"
             }
         },
-        "refDataSet" : {
+        "refDataset" : {
             "host" : "statdb.nstac.go.jp",
             "port" : 80,
-            "path" : "/api/1.0b/app/refDataSet",
+            "path" : "/api/1.0b/app/refDataset",
             "method" : "GET"
         }
     }
