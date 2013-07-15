@@ -3,8 +3,6 @@ var nodeJP = require('../index.js');
 
 function testCallBack(data){
 	console.log(data);
-	console.log('------------------------');
-	console.log(data['GET_STATS_LIST']['DATALIST_INF']['LIST_INF']);
 }
 
 var config = {

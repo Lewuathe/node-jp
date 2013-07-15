@@ -42,5 +42,12 @@
             "path" : "/api/1.0b/app/refDataset",
             "method" : "GET"
         }
-    }
+    },
+	"cbObject" : {
+		"getStatsList" : "StatsList",
+		"getMetaInfo"  : "MetaInfo",
+		"getStatsData" : "StatsData",
+		"postDataset"  : "DataSet",
+		"refDataset"   : "DataSet"
+	}
 }
