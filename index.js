@@ -37,25 +37,3 @@ Client.prototype.list = function(params, cb) {
 
 
 
-function testCallBack(data){
-	console.log(data);
-}
-
-var config = {
-	appId : "6d736004f09f38d8fc8bb827201c1ecf9b4cb84f",
-};
-
-var params = { 
-	'appId' : '6d736004f09f38d8fc8bb827201c1ecf9b4cb84f',
-	'lang' : 'E',
-	'dataSetId' : 'kaisasak',
-	'statsDataId':  12,
-	'penSpecified' : 0,
-		'processMode' : 'E',
-	'dataSetName' : 'kaisasak_test',
-	'lvArea' : 1
-};
-
-var c = new Client(config);
-c.save(params, testCallBack);
-
