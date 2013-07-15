@@ -14,6 +14,21 @@ var Client = module.exports = function(config) {
 	self.appId  = config.appId;
 }
 
+
+Client.prototype.list = function(params, cb) {
+	var self = this;
+	var getStatsListClient = new apiClient('getStatsList');
+	params.appId = self.appId;
+	getStatsListClient.request(params, cb);
+}
+
+Client.prototype.meta = function(params, cb){
+	var self = this;
+	var getMetaInfoClient = new apiClient('getMetaInfo');
+	params.appId = self.appId;
+	getMetaInfoClient.request(params, cb);
+}
+
 Client.prototype.save = function(params, cb) {
 	var self = this;
 	var postDatasetClient = new apiClient('postDataset');
@@ -27,13 +42,6 @@ Client.prototype.search = function(params, cb) {
 	params.appId = self.appId;
 	getStatsDataClient.request(params, cb);
 }	
-
-Client.prototype.list = function(params, cb) {
-	var self = this;
-	var getStatsListClient = new apiClient('getStatsList');
-	params.appId = self.appId;
-	getStatsListClient.request(params, cb);
-}
 
 
 
