@@ -64,7 +64,7 @@ Response object is StatsList object. This object is composed of below members.
 | list | Statistics table list | Array |
 
 
-## Statistics Meta information
+## # Statistics Meta information
 Get meta information of statistics table. This API needs also your callback.
 
 ### Request
@@ -78,6 +78,7 @@ In this API, you need to give only statsDataId. This ID is obtained from above l
 Response object is MetaInfo object. This object is composed of below members.
 
 | Member | A use | Type |
+|:----------|:----------:|:----------:|
 | result | Response code and Error message | Object |
 | parameter | Your request parameters | Object |
 | tableInf | Statistics table meta information | Object |
