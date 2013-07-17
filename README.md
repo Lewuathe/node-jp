@@ -3,6 +3,10 @@ node.jp
 
 Client library of the statics data provided by the goverment of Japan.
 
+# How to install
+
+    npm install nodeJP
+
 # How to use
 You can use client's 3 APIs.
 * `list`: Get statistics table list
