@@ -37,13 +37,15 @@ Get statistics table list. All API need callback function made by you. For examp
 Parameters which should be set are written in this [manual](http://statdb.nstac.go.jp/wp/wp-content/uploads/2013/06/API-spec.pdf "manual")
 
 | Parameter key | A use | Example |
-|:-----------|------------:|:------------:|
+|:-----------|:------------:|:------------:|
 | lang  | Response default language | `E` or `J` |
-| surveyYears |  The time of target data is surveyed | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
-| openYears  | The time of target data is opened |    Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm`    |
+| surveyYears |  When target data is surveyed | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
+| openYears  | When target data is opened | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
 | statsField | The field of target statistics data  | 2-digit or 4-digit number which is based on [category of statistics of Japan](http://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=10 "category of statistics of Japan") |
-| left       |       right |    center    |
-| aligned    |     aligned |   aligned    |
+| statsCode | Goverment statistics code | 5-digit or 8-digit number |
+| searchWord | Your search keyword | Any string |
+| searchKind | Kind of target data | `1`: statistics data(default), `2`: regional mesh, `3`: social or population | 
+| statsNameList | Statistics survey name | `Y` | 
 
 ## Data Source
 
