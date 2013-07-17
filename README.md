@@ -38,7 +38,7 @@ Parameters which should be set are written in this [manual](http://statdb.nstac.
 
 | Parameter key | A use | Example |
 |:-----------|------------:|:------------:|
-| This       |        This |     This     |
+| lang  | Response default language | `E` |
 | column     |      column |    column    |
 | will       |        will |     will     |
 | be         |          be |      be      |
