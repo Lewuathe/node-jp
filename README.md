@@ -5,9 +5,9 @@ Client library of the statics data provided by the goverment of Japan.
 
 # How to use
 You can use client's 3 APIs.
-* list: Get statistics table list
-* meta: Get statistics table meta information
-* search: Get statictics table data
+* `list`: Get statistics table list
+* `meta`: Get statistics table meta information
+* `search`: Get statictics table data
 
 
 Before use these API, you need appId for configure client
