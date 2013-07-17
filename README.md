@@ -41,29 +41,31 @@ Parameters which should be set are written in this [manual](http://statdb.nstac.
 | Parameter key | A use | Example |
 |:-----------|:------------:|:------------:|
 | lang  | Response default language | `E` or `J` |
-| surveyYears |  When target data is surveyed | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
-| openYears  | When target data is opened | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
-| statsField | The field of target statistics data  | 2-digit or 4-digit number which is based on [category of statistics of Japan](http://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=10 "category of statistics of Japan") |
-| statsCode | Goverment statistics code | 5-digit or 8-digit number |
-| searchWord | Your search keyword | Any string |
+| surveyYears |  When target data is surveyed.  Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` | `2013` | 
+| openYears  | When target data is opened. Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` | `2013` | 
+| statsField | The field of target statistics data. 2-digit or 4-digit number which is based on [category of statistics of Japan](http://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=10 "category of statistics of Japan") | `02` |
+| statsCode | Goverment statistics code. 5-digit or 8-digit number | `12345` |
+| searchWord | Your search keyword.  Any string | `Tokyo` |
 | searchKind | Kind of target data | `1`: statistics data(default), `2`: regional mesh, `3`: social or population | 
 | statsNameList | Statistics survey name | `Y` | 
 
 ### Response
 Response object is StatsList object. This object is composed of below members.
 
-| Member | A use |
-|:----------|:----------:|
-| result | Reponse code and Error message | 
-| parameter | Your request parameters | 
-| number | Number of response list |
-| list | Statistics table list |
-
-
+| Member | A use | Type |
+|:----------|:----------:|:---------:|
+| result | Reponse code and Error message | Object |
+| parameter | Your request parameters | Object |
+| number | Number of response list | String |
+| list | Statistics table list | Array |
 
 
 ## Statistics Meta information
 Get meta information of statistics table. This API needs also your callback.
+
+| Parameter key | A use | Example |
+|:----------|:----------:|:----------:|
+| statsDataId | Statistics table id | `0003003333` | 
 
 ## Data Source
 
