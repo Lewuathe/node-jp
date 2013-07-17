@@ -34,6 +34,8 @@ Get statistics table list. All API need callback function made by you. For examp
     
     client.list(params, yourCallback);
 
+### Request
+
 Parameters which should be set are written in this [manual](http://statdb.nstac.go.jp/wp/wp-content/uploads/2013/06/API-spec.pdf "manual")
 
 | Parameter key | A use | Example |
@@ -46,6 +48,22 @@ Parameters which should be set are written in this [manual](http://statdb.nstac.
 | searchWord | Your search keyword | Any string |
 | searchKind | Kind of target data | `1`: statistics data(default), `2`: regional mesh, `3`: social or population | 
 | statsNameList | Statistics survey name | `Y` | 
+
+### Response
+Response object is StatsList object. This object is composed of below members.
+
+| Member | A use |
+|:----------|:----------:|
+| result | Reponse code and Error message | 
+| parameter | Your request parameters | 
+| number | Number of response list |
+| list | Statistics table list |
+
+
+
+
+## Statistics Meta information
+Get meta information of statistics table. This API needs also your callback.
 
 ## Data Source
 
