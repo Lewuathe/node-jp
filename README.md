@@ -38,10 +38,10 @@ Parameters which should be set are written in this [manual](http://statdb.nstac.
 
 | Parameter key | A use | Example |
 |:-----------|------------:|:------------:|
-| lang  | Response default language | `E` |
-| column     |      column |    column    |
-| will       |        will |     will     |
-| be         |          be |      be      |
+| lang  | Response default language | `E` or `J` |
+| surveyYears |  The time of target data is surveyed | Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm` |
+| openYears  | The time of target data is opened |    Format is `yyyy` or `yyyymm` or `yyyymm-yyyymm`    |
+| statsField | The field of target statistics data  | 2-digit or 4-digit number which is based on [category of statistics of Japan](http://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=10 "category of statistics of Japan") |
 | left       |       right |    center    |
 | aligned    |     aligned |   aligned    |
 
