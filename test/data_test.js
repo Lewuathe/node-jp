@@ -1,12 +1,9 @@
 var nodeJP = require('../index.js');
+var config = require('./test_config.json');
 
 function testCallBack(data){
 	console.log(data);
 }
-
-var config = {
-	appId : "6d736004f09f38d8fc8bb827201c1ecf9b4cb84f",
-};
 
 var params = {
 	'lang' : 'E',
