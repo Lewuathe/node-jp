@@ -10,6 +10,7 @@
       "test" : "make test"
   },
   "dependencies": {
+       "xmljson" : "*"	  
    },
   "devDependencies" : {
       "vows" : "0.7.x",
