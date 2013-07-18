@@ -84,6 +84,31 @@ Response object is MetaInfo object. This object is composed of below members.
 | tableInf | Statistics table meta information | Object |
 | classInf | Factors of which statistics table is composed | Object |
 
+## # Statistics Data
+Get statistics data. This API needs also your callback.
+
+### Request
+| Parameter key | A use | Example |
+|:----------|:----------:|:----------:|
+| statsDataId | Statistics table id | `0003003333` | 
+| lvTab | Table tag level. Format is `X` or `X-X` or `-X` or `X-` | `1-9` |
+| cdTab | Item code | `01000` | 
+| cdTabFrom | Start item code of range search | `01000` | 
+| cdTabTo | End item code of range search | `02000` | 
+| lvTime | Time level. Format is the same as category level | `1-9` | 
+| cdTime | Item code about time | `01000` | 
+| cdTimeFrom | Start item code of range search | `01000` | 
+| cdTimeTo | End item code of range search | `02000` |
+| lvArea | Area level. Format is the same as category level | `1-9` | 
+| cdArea | Item code about area | `01000` | 
+| cdAreaFrom | Start item code of range search | `01000` | 
+| cdAreaTo | End item code of range search | `02000` |
+| lvCat0[1-15] | Category level. Format is the same as category level | `1-9` | 
+| cdCat0[1-15] | Item code about category | `01000` | 
+| cdCat0[1-15]From | Start item code of range search | `01000` | 
+| cdCat0[1-15]To | End item code of range search | `02000` |
+| ・・・ | ・・・ | ・・・ |
+
 ## Data Source
 
 [Gateway to Advanced and User-friendly statics service](http://statdb.nstac.go.jp/ "Data source")
