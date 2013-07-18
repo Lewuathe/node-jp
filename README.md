@@ -108,6 +108,20 @@ Get statistics data. This API needs also your callback.
 | cdCat0[1-15]From | Start item code of range search | `01000` | 
 | cdCat0[1-15]To | End item code of range search | `02000` |
 | ・・・ | ・・・ | ・・・ |
+| startPosition | Start offset of data list | `1` | 
+| limit | Max number of data list | `15` | 
+| metaGetFlg | Whether meta info is added or not | `Y` or `N` | 
+| cntGetFlg | Only count of data list | `Y` or `N` | 
+
+### Response
+Client returns your callback StatsData object.
+
+| Member | A use | Type | 
+|:----------|:----------:|:----------:|
+| result | Response code and Error message | Object |
+| parameter | Your request parameters | Object |
+| tableInf | Statistics table meta information | Object |
+| classInf | Data of which statistics table is composed | Object |
 
 ## Data Source
 
