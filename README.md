@@ -18,7 +18,7 @@ Before use these API, you need appId for configure client
 from this [page](https://statdb.nstac.go.jp/apiuser/php/index.php?action=provisional "page").
 With this appId, you make client like below.
 
-    var nodeJP = require('nodeJP');
+    var nodeJP = require('node-jp');
 
     var config = {
 	    appId : <Your application id from beyond site>
@@ -31,7 +31,7 @@ And then you can get various data with this client.
 ## # Statistics List
 Get statistics table list. All API need callback function made by you. For example,
 
-    function yourCallback(data) {
+    function yourCallback(err, data) {
         // Write your code
         // data is different respective API 
     }
