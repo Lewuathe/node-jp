@@ -5,7 +5,7 @@ Client library of the statics data provided by the goverment of Japan.
 
 # How to install
 
-    npm install nodeJP
+    npm install node-jp
 
 # How to use
 You can use client's 3 APIs.
