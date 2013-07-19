@@ -1,0 +1,1 @@
+echo {\"appId\":\"$API_KEY\"} > test/test_config.json

@@ -1,5 +1,16 @@
+---
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-  - "0.8"
+- '0.11'
+- '0.10'
+- '0.8'
+before_script:
+- ./configure
+script:
+- npm test
+notifications:
+  email:
+  - lewuathe@me.com
+env:
+  global:
+    secure: HZBL93a1O2OW3AwYhjtbyrm+t/VIRR+8UkQASQkTv8BQZRCDeS1Om0FJwVmG7fK6PN6YnbE2/CtS1gKyntVcRtj+8ShcKMfmqLRkhN86j4IqQRhvUR+Z9LFAxJYqTNfzqlTISi3siY3x2VJBdnnaupbNkU7lC3iF34WRld8W38k=
