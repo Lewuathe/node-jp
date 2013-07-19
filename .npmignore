@@ -4,4 +4,5 @@ test
 .gitignore
 node_modules
 configure
+npm-debug.log
 

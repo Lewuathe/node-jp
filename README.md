@@ -1,4 +1,4 @@
-node.jp [![Build Status](https://travis-ci.org/Lewuathe/node.jp.png?branch=master)](https://travis-ci.org/Lewuathe/node.jp)
+node-jp [![Build Status](https://travis-ci.org/Lewuathe/node.jp.png?branch=master)](https://travis-ci.org/Lewuathe/node.jp)
 =======
 
 Client library of the statics data provided by the goverment of Japan.
