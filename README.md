@@ -123,6 +123,19 @@ Client returns your callback StatsData object.
 | tableInf | Statistics table meta information | Object |
 | classInf | Data of which statistics table is composed | Object |
 
+## Test
+If you want to run test, please get your appId from [here](http://statdb.nstac.go.jp/ "Data source")
+And write your appId into test/test_config.json like below.
+
+    {
+        "appId" : <Your appId> 
+    }
+
+Run test with npm command.
+
+    $ npm test
+
+
 ## Data Source
 
 [Gateway to Advanced and User-friendly statics service](http://statdb.nstac.go.jp/ "Data source")
