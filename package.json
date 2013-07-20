@@ -1,6 +1,6 @@
 {
   "name": "node-jp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description" : "Client of the statics data provided by the goverment of Japan.",
   "repository" : {
         "type" : "git",
